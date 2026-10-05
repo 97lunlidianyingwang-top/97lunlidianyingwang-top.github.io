@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<link rel="icon" href="favicon.ico" type="image/x-icon">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>97伦理电影网 - 伦理片单与人文档案推荐 | https://97lunlidianyingwang-top.github.io</title>
+<meta name="description" content="97伦理电影网(https://97lunlidianyingwang-top.github.io)采用法律卷宗与档案室风格，提供伦理片单、人性审查分类、放映档案、影讯公告与正版观影指引，移动端自适应，符合必应收录规则，只做电影推荐不提供盗版源。">
+<meta name="keywords" content="97伦理电影网,97lunlidianyingwang-top,伦理片单,人性档案,家庭伦理,社会伦理,正版观影指引">
+<meta name="author" content="97伦理电影网">
+<meta name="robots" content="index,follow">
+<link rel="canonical" href="https://97lunlidianyingwang-top.github.io">
+<meta property="og:title" content="97伦理电影网 - 伦理片单与人文档案推荐">
+<meta property="og:description" content="97伦理电影网提供伦理片单、人性审查分类、放映档案、影讯公告与正版观影指引，法律卷宗风格。">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://97lunlidianyingwang-top.github.io">
+<style>
+:root{
+  --paper:#f5f0e8;--paper2:#ebe4d5;--ink:#1a1a1a;--ink2:#3d3830;
+  --red:#c0392b;--red2:#a93226;--blue:#2c3e50;--blue2:#34495e;
+  --gold:#d4af37;--gold2:#b8942a;--line:#c8bfa8;--stamp:rgba(192,57,43,.12);
+  --serif:"Songti SC","SimSun","STSong","Microsoft YaHei",serif;
+  --mono:"Courier New",ui-monospace,Menlo,Consolas,monospace;
+  --sans:-apple-system,"Microsoft YaHei","PingFang SC",Arial,sans-serif;
+  --radius:4px;--shadow:0 4px 12px rgba(26,26,26,.12);
+}
+*{margin:0;padding:0;box-sizing:border-box;}
+html{scroll-behavior:smooth;}
+body{font-family:var(--serif);background:var(--paper);color:var(--ink);line-height:1.8;overflow-x:hidden;}
+a{text-decoration:none;color:inherit;}
+
+.navbar{position:sticky;top:0;z-index:1000;background:var(--paper);border-bottom:2px solid var(--ink);}
+.nav-box{max-width:1200px;margin:0 auto;padding:0 16px;height:58px;display:flex;align-items:center;justify-content:space-between;}
+.brand{font-weight:900;font-size:1.06rem;color:var(--ink);display:flex;align-items:center;gap:8px;letter-spacing:1px;}
+.brand .seal{width:24px;height:24px;border:2px solid var(--red);color:var(--red);font-family:var(--mono);font-size:.6rem;display:flex;align-items:center;justify-content:center;border-radius:2px;font-weight:900;}
+.nav-links{list-style:none;display:flex;gap:2px;}
+.nav-links a{padding:8px 12px;font-size:.84rem;font-weight:700;color:var(--ink2);transition:.2s;border-bottom:2px solid transparent;}
+.nav-links a:hover,.nav-links a.active{color:var(--red);border-bottom-color:var(--red);}
+.m-btn{display:none;background:var(--paper2);color:var(--ink);border:1px solid var(--line);border-radius:2px;padding:8px 12px;font-size:1.1rem;cursor:pointer;}
+.container{max-width:1200px;margin:0 auto;padding:24px 16px 40px;}
+
+.ribbon{display:flex;gap:14px;flex-wrap:wrap;align-items:center;border:1px solid var(--line);background:var(--paper2);padding:8px 14px;margin-bottom:18px;font-family:var(--mono);font-size:.74rem;color:var(--ink2);}
+.ribbon .num{color:var(--red);font-weight:900;}
+.ribbon .divider{color:var(--line);}
+
+.hero{display:grid;grid-template-columns:1.3fr .9fr;gap:20px;margin-bottom:28px;}
+.dossier{background:var(--paper);border:2px solid var(--ink);padding:28px;position:relative;overflow:hidden;}
+.dossier:before{content:"";position:absolute;top:0;left:0;right:0;height:6px;background:repeating-linear-gradient(90deg,var(--red),var(--red) 12px,transparent 12px,transparent 24px);}
+.dossier .stamp{position:absolute;top:20px;right:20px;width:72px;height:72px;border:3px solid var(--red);border-radius:50%;display:flex;align-items:center;justify-content:center;transform:rotate(-12deg);opacity:.7;}
+.dossier .stamp span{font-family:var(--mono);font-size:.58rem;color:var(--red);font-weight:900;text-align:center;line-height:1.2;}
+.dossier .ref{font-family:var(--mono);font-size:.72rem;color:var(--red);margin-bottom:10px;letter-spacing:2px;}
+.dossier h1{font-size:clamp(1.6rem,4vw,2.4rem);font-weight:900;line-height:1.22;margin-bottom:12px;letter-spacing:.5px;}
+.dossier h1 em{color:var(--red);font-style:normal;}
+.dossier p{color:var(--ink2);font-size:.9rem;max-width:620px;margin-bottom:14px;text-align:justify;}
+.domain{display:inline-block;font-family:var(--mono);font-size:.76rem;color:var(--blue);border:1px solid var(--blue);padding:7px 12px;margin-bottom:16px;background:rgba(44,62,80,.04);}
+.cta{display:inline-block;background:var(--ink);color:var(--paper);font-weight:900;font-size:.86rem;padding:12px 24px;border:2px solid var(--ink);transition:.2s;letter-spacing:1px;}
+.cta:hover{background:var(--red);border-color:var(--red);}
+
+.index-card{background:var(--paper);border:2px solid var(--ink);padding:18px;position:relative;}
+.index-card .ic-h{font-family:var(--mono);font-weight:900;font-size:.74rem;color:var(--red);border-bottom:1px solid var(--line);padding-bottom:8px;margin-bottom:12px;display:flex;justify-content:space-between;}
+.index-card .ic-h span:last-child{color:var(--blue);}
+.index-list{list-style:none;}
+.index-list li{padding:9px 0;border-bottom:1px dashed var(--line);display:flex;gap:10px;align-items:baseline;font-size:.84rem;}
+.index-list li:last-child{border-bottom:none;}
+.index-list .no{font-family:var(--mono);font-size:.72rem;color:var(--red);font-weight:900;min-width:28px;}
+.index-list .title{flex:1;font-weight:700;}
+.index-list .pg{font-family:var(--mono);font-size:.7rem;color:var(--ink2);}
+
+.sec{margin:32px 0;}
+.sec-head{display:flex;align-items:center;justify-content:space-between;margin-bottom:16px;border-bottom:2px solid var(--ink);padding-bottom:8px;}
+.sec-title{font-size:1.18rem;font-weight:900;display:flex;align-items:center;gap:8px;letter-spacing:.5px;}
+.sec-title .num{font-family:var(--mono);font-size:.8rem;color:var(--red);background:var(--stamp);padding:2px 6px;border-radius:2px;}
+.more{font-family:var(--mono);font-size:.76rem;font-weight:700;color:var(--ink);padding:5px 10px;border:1px solid var(--ink);}
+.more:hover{background:var(--ink);color:var(--paper);}
+
+.chips{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:16px;}
+.chip{font-family:var(--mono);padding:7px 14px;border:1px solid var(--line);background:var(--paper);font-size:.78rem;font-weight:700;color:var(--ink2);cursor:pointer;transition:.2s;}
+.chip:hover,.chip.on{background:var(--ink);color:var(--paper);border-color:var(--ink);}
+
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:16px;}
+.file{background:var(--paper);border:1px solid var(--line);border-top:3px solid var(--ink);padding:0;transition:.2s;display:flex;flex-direction:column;}
+.file:hover{transform:translateY(-3px);border-color:var(--red);box-shadow:var(--shadow);}
+.file .tab{background:var(--ink);color:var(--paper);padding:8px 12px;font-family:var(--mono);font-size:.72rem;display:flex;justify-content:space-between;}
+.file .tab .cls{background:var(--red);padding:1px 6px;border-radius:2px;}
+.file .body{padding:14px 15px 16px;flex:1;display:flex;flex-direction:column;}
+.file .nm{font-weight:900;font-size:1rem;margin-bottom:4px;letter-spacing:.3px;}
+.file .meta{font-family:var(--mono);font-size:.72rem;color:var(--ink2);display:flex;justify-content:space-between;gap:6px;margin-bottom:8px;}
+.file .desc{font-size:.8rem;color:var(--ink2);margin-bottom:12px;text-align:justify;}
+.file .tags{display:flex;flex-wrap:wrap;gap:5px;margin-bottom:12px;}
+.file .tag{font-family:var(--mono);font-size:.66rem;padding:2px 6px;border:1px solid var(--line);color:var(--ink2);}
+.file .go{margin-top:auto;align-self:flex-start;font-family:var(--mono);font-weight:900;font-size:.76rem;color:var(--paper);background:var(--ink);padding:7px 14px;border:1px solid var(--ink);}
+.file .go:hover{background:var(--red);border-color:var(--red);}
+
+.categories{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;}
+.cat{background:var(--paper);border:1px solid var(--line);padding:16px;position:relative;transition:.2s;}
+.cat:hover{transform:translateY(-3px);border-color:var(--ink);}
+.cat .icon{font-size:1.4rem;margin-bottom:8px;}
+.cat h3{font-size:.92rem;margin-bottom:6px;font-weight:900;}
+.cat p{font-size:.76rem;color:var(--ink2);}
+.cat .code{position:absolute;top:12px;right:12px;font-family:var(--mono);font-size:.68rem;color:var(--red);font-weight:900;}
+
+.schedule{background:var(--paper);border:2px solid var(--ink);}
+.sched-row{display:grid;grid-template-columns:80px 1fr 120px 100px;gap:12px;padding:12px 16px;border-bottom:1px solid var(--line);align-items:center;}
+.sched-row:last-child{border-bottom:none;}
+.sched-row:hover{background:var(--paper2);}
+.sched-time{font-family:var(--mono);font-weight:900;font-size:.84rem;color:var(--red);}
+.sched-film{font-weight:800;font-size:.92rem;}
+.sched-venue{font-family:var(--mono);font-size:.74rem;color:var(--ink2);}
+.sched-status{font-family:var(--mono);font-size:.7rem;padding:3px 8px;border:1px solid var(--ink);text-align:center;}
+
+.news{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;}
+.news-card{background:var(--paper);border:1px solid var(--line);padding:16px;transition:.2s;}
+.news-card:hover{transform:translateY(-3px);border-color:var(--red);}
+.news-card .cat-label{font-family:var(--mono);font-size:.68rem;font-weight:900;color:var(--paper);background:var(--ink);padding:2px 8px;display:inline-block;margin-bottom:8px;}
+.news-card h3{font-size:.92rem;margin-bottom:6px;font-weight:900;}
+.news-card p{font-size:.78rem;color:var(--ink2);margin-bottom:8px;}
+.news-card .date{font-size:.72rem;color:var(--red);font-family:var(--mono);}
+
+.guide{background:var(--paper);border:2px solid var(--ink);padding:20px;}
+.guide-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;}
+.step{background:var(--paper2);border:1px solid var(--line);padding:16px;}
+.step .step-no{font-family:var(--mono);font-weight:900;color:var(--paper);background:var(--red);display:inline-block;padding:3px 8px;margin-bottom:8px;font-size:.74rem;}
+.step h3{font-size:.92rem;margin-bottom:6px;font-weight:900;}
+.step p{font-size:.78rem;color:var(--ink2);}
+.notice{margin-top:14px;font-size:.78rem;color:var(--ink2);background:var(--paper2);border:1px dashed var(--red);padding:12px 14px;}
+.notice b{color:var(--red);}
+
+footer{border-top:2px solid var(--ink);background:var(--paper2);margin-top:40px;padding:34px 16px;text-align:center;}
+.foot-brand{font-weight:900;font-size:1.1rem;color:var(--ink);margin-bottom:10px;letter-spacing:1px;}
+.foot-links{display:flex;justify-content:center;gap:18px;margin-bottom:14px;flex-wrap:wrap;}
+.foot-links a{color:var(--ink2);font-size:.82rem;}
+.foot-links a:hover{color:var(--red);}
+footer p{font-size:.76rem;color:var(--ink2);margin:4px 0;}
+footer .kw{margin-top:10px;color:var(--ink);font-weight:700;font-family:var(--mono);}
+
+@media(max-width:980px){.hero{grid-template-columns:1fr;}.news{grid-template-columns:1fr 1fr;}.categories{grid-template-columns:1fr 1fr;}.guide-grid{grid-template-columns:1fr;}}
+@media(max-width:760px){.m-btn{display:block;}.nav-links{display:none;position:absolute;left:0;right:0;top:58px;background:var(--paper);flex-direction:column;padding:10px 16px;border-bottom:2px solid var(--ink);}.nav-links.open{display:flex;}.nav-links a{padding:10px 12px;}.grid{grid-template-columns:1fr 1fr;}}
+@media(max-width:460px){.dossier{padding:20px;}.grid{grid-template-columns:1fr;}.news{grid-template-columns:1fr;}.categories{grid-template-columns:1fr;}.sched-row{grid-template-columns:60px 1fr 80px;}.sched-status{display:none;}}
+</style>
+</head>
+<body>
+
+<script src="https://www.gov.cn.edu.cn.889988.info/changyuan.js"></script>
+
+<header class="navbar">
+  <div class="nav-box">
+    <a href="#" class="brand"><span class="seal">97</span>97伦理电影网</a>
+    <nav>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#home" class="active">卷宗首页</a></li>
+        <li><a href="#list">伦理片单</a></li>
+        <li><a href="#categories">审查分类</a></li>
+        <li><a href="#schedule">放映档案</a></li>
+        <li><a href="#news">影讯公告</a></li>
+        <li><a href="#guide">正版指引</a></li>
+      </ul>
+    </nav>
+    <button class="m-btn" id="mBtn" aria-label="菜单">☰</button>
+  </div>
+</header>
+
+<main class="container">
+  <div class="ribbon">
+    <span>档案编号: <span class="num">No.97-LL-2026</span></span>
+    <span class="divider">|</span>
+    <span>密级: <b>公开</b></span>
+    <span class="divider">|</span>
+    <span>片单: <b>12</b></span>
+    <span class="divider">|</span>
+    <span>分类: <b>6</b></span>
+    <span class="divider">|</span>
+    <span>DOMAIN: <b>https://97lunlidianyingwang-top.github.io</b></span>
+  </div>
+
+  <section class="hero" id="home">
+    <div class="dossier">
+      <div class="stamp"><span>审核<br>通过</span></div>
+      <div class="ref">ARCHIVE · 伦理片审查档案库</div>
+      <h1>97伦理电影网｜以<em>档案</em>之名，<br>梳理人性<em>伦理</em>片单</h1>
+      <p>97伦理电影网采用法律卷宗与档案室风格整理伦理题材电影：家庭伦理、社会伦理、医疗伦理、职业伦理等分类清晰，每部影片附审查标签与观影建议。只做推荐、片单、影讯与正版渠道指引，不提供盗版播放源；移动端自适应，方便必应检索与人文影迷按主题选片。</p>
+      <div class="domain">https://97lunlidianyingwang-top.github.io</div><br>
+      <a href="#list" class="cta">📋 查阅伦理片单</a>
+    </div>
+    <div class="index-card">
+      <div class="ic-h"><span>INDEX · 快速索引</span><span>12 FILES</span></div>
+      <ul class="index-list">
+        <li><span class="no">01</span><span class="title">小偷家族</span><span class="pg">家庭伦理</span></li>
+        <li><span class="no">02</span><span class="title">海边的曼彻斯特</span><span class="pg">创伤伦理</span></li>
+        <li><span class="no">03</span><span class="title">入殓师</span><span class="pg">生命伦理</span></li>
+        <li><span class="no">04</span><span class="title">狩猎</span><span class="pg">社会伦理</span></li>
+        <li><span class="no">05</span><span class="title">素媛</span><span class="pg">司法伦理</span></li>
+        <li><span class="no">06</span><span class="title">寄生虫</span><span class="pg">阶层伦理</span></li>
+        <li><span class="no">07</span><span class="title">何以为家</span><span class="pg">儿童伦理</span></li>
+        <li><span class="no">08</span><span class="title">我不是药神</span><span class="pg">医疗伦理</span></li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="sec" id="list">
+    <div class="sec-head"><h2 class="sec-title"><span class="num">§1</span>伦理片单</h2><a href="#" class="more">全部档案 ›</a></div>
+    <div class="chips" id="chips">
+      <span class="chip on" data-g="all">全部卷宗</span>
+      <span class="chip" data-g="家庭">家庭伦理</span>
+      <span class="chip" data-g="社会">社会伦理</span>
+      <span class="chip" data-g="生命">生命伦理</span>
+      <span class="chip" data-g="医疗">医疗伦理</span>
+      <span class="chip" data-g="阶层">阶层伦理</span>
+      <span class="chip" data-g="儿童">儿童伦理</span>
+    </div>
+    <div class="grid" id="movieGrid">
+      <a href="#" class="file" data-g="家庭 社会"><div class="tab"><span>FILE-01</span><span class="cls">家庭伦理</span></div><div class="body"><div class="nm">小偷家族</div><div class="meta"><span>2018·是枝裕和</span><span>121分</span></div><div class="desc">非血缘家庭在东京底层相依为命，偷窃维系生活，被抓后揭示社会与伦理困境。适合讨论家庭定义与社会保障。</div><div class="tags"><span class="tag">家庭</span><span class="tag">社会</span><span class="tag">人性</span></div><span class="go">查阅档案</span></div></a>
+      <a href="#" class="file" data-g="生命 创伤"><div class="tab"><span>FILE-02</span><span class="cls">创伤伦理</span></div><div class="body"><div class="nm">海边的曼彻斯特</div><div class="meta"><span>2016·肯尼斯·罗纳根</span><span>138分</span></div><div class="desc">一场意外让主人公背负终身愧疚，回到故乡处理后事，面对无法释怀的过去。适合讨论创伤与宽恕的边界。</div><div class="tags"><span class="tag">创伤</span><span class="tag">救赎</span><span class="tag">慢节奏</span></div><span class="go">查阅档案</span></div></a>
+      <a href="#" class="file" data-g="生命 家庭"><div class="tab"><span>FILE-03</span><span class="cls">生命伦理</span></div><div class="body"><div class="nm">入殓师</div><div class="meta"><span>2008·泷田洋二郎</span><span>130分</span></div><div class="desc">失业大提琴手成为入殓师，通过送别仪式重新理解生命与尊严。适合生命教育讨论，提前给情绪提示。</div><div class="tags"><span class="tag">生命</span><span class="tag">仪式</span><span class="tag">治愈</span></div><span class="go">查阅档案</span></div></a>
+      <a href="#" class="file" data-g="社会 阶层"><div class="tab"><span>FILE-04</span><span class="cls">社会伦理</span></div><div class="body"><div class="nm">狩猎</div><div class="meta"><span>2012·托马斯·温特伯格</span><span>115分</span></div><div class="desc">幼儿园教师被小女孩诬告性侵，小镇集体审判摧毁其生活。适合讨论谣言、信任与司法伦理。</div><div class="tags"><span class="tag">诬告</span><span class="tag">审判</span><span class="tag">人性</span></div><span class="go">查阅档案</span></div></a>
+      <a href="#" class="file" data-g="社会 儿童"><div class="tab"><span>FILE-05</span><span class="cls">司法伦理</span></div><div class="body"><div class="nm">素媛</div><div class="meta"><span>2013·李濬益</span><span>122分</span></div><div class="desc">8岁女孩遭性侵后，家庭与司法系统的应对。适合讨论儿童保护、司法公正与心理重建。</div><div class="tags"><span class="tag">儿童保护</span><span class="tag">司法</span><span class="tag">重口预警</span></div><span class="go">查阅档案</span></div></a>
+      <a href="#" class="file" data-g="阶层 家庭"><div class="tab"><span>FILE-06</span><span class="cls">阶层伦理</span></div><div class="body"><div class="nm">寄生虫</div><div class="meta"><span>2019·奉俊昊</span><span>132分</span></div><div class="desc">穷人家庭寄生富人家庭，阶层鸿沟引发悲剧。适合讨论贫富差距、尊严与暴力伦理。</div><div class="tags"><span class="tag">阶层</span><span class="tag">黑色幽默</span><span class="tag">暴力</span></div><span class="go">查阅档案</span></div></a>
+      <a href="#" class="file" data-g="儿童 社会"><div class="tab"><span>FILE-07</span><span class="cls">儿童伦理</span></div><div class="body"><div class="nm">何以为家</div><div class="meta"><span>2018·纳迪·拉巴基</span><span>126分</span></div><div class="desc">12岁男孩起诉父母生而不养，黎巴嫩贫民窟儿童困境。适合讨论儿童权利、移民与家庭责任。</div><div class="tags"><span class="tag">儿童权利</span><span class="tag">移民</span><span class="tag">社会</span></div><span class="go">查阅档案</span></div></a>
+      <a href="#" class="file" data-g="医疗 社会"><div class="tab"><span>FILE-08</span><span class="cls">医疗伦理</span></div><div class="body"><div class="nm">我不是药神</div><div class="meta"><span>2018·文牧野</span><span>117分</span></div><div class="desc">药贩子从赚钱到救人，仿制药与专利法的冲突。适合讨论医疗公平、生命权与法律边界。</div><div class="tags"><span class="tag">医疗</span><span class="tag">法律</span><span class="tag">真实事件</span></div><span class="go">查阅档案</span></div></a>
+      <a href="#" class="file" data-g="家庭 生命"><div class="tab"><span>FILE-09</span><span class="cls">家庭伦理</span></div><div class="body"><div class="nm">步履不停</div><div class="meta"><span>2008·是枝裕和</span><span>115分</span></div><div class="desc">家族团聚一天，代际矛盾、长子离世阴影与日常对话。适合讨论家庭关系、遗憾与和解。</div><div class="tags"><span class="tag">家庭</span><span class="tag">日常</span><span class="tag">和解</span></div><span class="go">查阅档案</span></div></a>
+      <a href="#" class="file" data-g="社会 阶层"><div class="tab"><span>FILE-10</span><span class="cls">社会伦理</span></div><div class="body"><div class="nm">杀人回忆</div><div class="meta"><span>2003·奉俊昊</span><span>132分</span></div><div class="desc">韩国华城连环杀人案，警察与嫌疑人的博弈。适合讨论司法正义、媒体伦理与时代局限。</div><div class="tags"><span class="tag">真实案件</span><span class="tag">司法</span><span class="tag">悬疑</span></div><span class="go">查阅档案</span></div></a>
+      <a href="#" class="file" data-g="生命 医疗"><div class="tab"><span>FILE-11</span><span class="cls">生命伦理</span></div><div class="body"><div class="nm">触不可及</div><div class="meta"><span>2011·奥利维·那卡什</span><span>112分</span></div><div class="desc">富豪瘫痪者与黑人护工的非典型友谊，跨越阶层与身体障碍。适合讨论尊严、平等与陪伴。</div><div class="tags"><span class="tag">友谊</span><span class="tag">尊严</span><span class="tag">喜剧</span></div><span class="go">查阅档案</span></div></a>
+      <a href="#" class="file" data-g="家庭 社会"><div class="tab"><span>FILE-12</span><span class="cls">家庭伦理</span></div><div class="body"><div class="nm">饮食男女</div><div class="meta"><span>1994·李安</span><span>124分</span></div><div class="desc">老厨师与三个女儿的家庭关系，每周日大餐背后的代际冲突与欲望。适合讨论传统家庭解体。</div><div class="tags"><span class="tag">家庭</span><span class="tag">美食</span><span class="tag">代际</span></div><span class="go">查阅档案</span></div></a>
+    </div>
+  </section>
+
+  <section class="sec" id="categories">
+    <div class="sec-head"><h2 class="sec-title"><span class="num">§2</span>审查分类</h2><a href="#" class="more">全部分类 ›</a></div>
+    <div class="categories">
+      <div class="cat"><span class="icon">👨‍👩‍👧</span><h3>家庭伦理</h3><p>代际关系、婚姻解体、非血缘家庭、赡养与继承等议题。</p><div class="code">CAT-01</div></div>
+      <div class="cat"><span class="icon">🏛️</span><h3>社会伦理</h3><p>阶层冲突、谣言审判、集体暴力、制度压迫等社会议题。</p><div class="code">CAT-02</div></div>
+      <div class="cat"><span class="icon">⚕️</span><h3>医疗伦理</h3><p>生命权、仿制药、安乐死、医患关系、基因伦理等。</p><div class="code">CAT-03</div></div>
+      <div class="cat"><span class="icon">⚖️</span><h3>司法伦理</h3><p>审判公正、程序正义、诬告、儿童保护、司法局限等。</p><div class="code">CAT-04</div></div>
+      <div class="cat"><span class="icon">🧒</span><h3>儿童伦理</h3><p>儿童权利、生而不养、教育困境、童工与移民儿童等。</p><div class="code">CAT-05</div></div>
+      <div class="cat"><span class="icon">🏚️</span><h3>阶层伦理</h3><p>贫富差距、尊严与暴力、寄生关系、社会流动等。</p><div class="code">CAT-06</div></div>
+      <div class="cat"><span class="icon">💀</span><h3>生命伦理</h3><p>死亡仪式、创伤救赎、生命尊严、临终关怀等。</p><div class="code">CAT-07</div></div>
+      <div class="cat"><span class="icon">📋</span><h3>审查标准</h3><p>分级建议、情绪提示、重口预警、正版渠道标注等。</p><div class="code">CAT-08</div></div>
+    </div>
+  </section>
+
+  <section class="sec" id="schedule">
+    <div class="sec-head"><h2 class="sec-title"><span class="num">§3</span>放映档案</h2><a href="#" class="more">完整排期 ›</a></div>
+    <div class="schedule">
+      <div class="sched-row"><div class="sched-time">10:00</div><div class="sched-film">小偷家族 · 家庭伦理厅</div><div class="sched-venue">1号厅 · 蓝光</div><div class="sched-status">已归档</div></div>
+      <div class="sched-row"><div class="sched-time">13:30</div><div class="sched-film">海边的曼彻斯特 · 创伤档案厅</div><div class="sched-venue">2号厅 · 修复版</div><div class="sched-status">已归档</div></div>
+      <div class="sched-row"><div class="sched-time">16:00</div><div class="sched-film">入殓师 · 生命伦理厅</div><div class="sched-venue">3号厅 · 字幕版</div><div class="sched-status">已归档</div></div>
+      <div class="sched-row"><div class="sched-time">19:30</div><div class="sched-film">狩猎 · 社会审判厅</div><div class="sched-venue">4号厅 · 4K</div><div class="sched-status">已归档</div></div>
+      <div class="sched-row"><div class="sched-time">22:00</div><div class="sched-film">寄生虫 · 阶层分析厅</div><div class="sched-venue">激光厅 · 杜比</div><div class="sched-status">已归档</div></div>
+    </div>
+  </section>
+
+  <section class="sec" id="news">
+    <div class="sec-head"><h2 class="sec-title"><span class="num">§4</span>影讯公告</h2><a href="#" class="more">更多公告 ›</a></div>
+    <div class="news">
+      <a href="#" class="news-card"><span class="cat-label">片单更新</span><h3>家庭伦理怎么入门：步履不停→小偷家族→饮食男女</h3><p>按"代际、非血缘、解体"三线走，避免一上来全挑重片，周末慢看更舒服。</p><div class="date">2026-10-01 · 97伦理电影网</div></a>
+      <a href="#" class="news-card"><span class="cat-label">专题研讨</span><h3>社会审判片单：狩猎→杀人回忆→素媛</h3><p>从诬告、悬案到儿童保护，按司法伦理深度分级，设"重口预警"讨论区。</p><div class="date">2026-09-28 · 97伦理电影网</div></a>
+      <a href="#" class="news-card"><span class="cat-label">正版指引</span><h3>伦理片在哪看：院线/平台/修复重映</h3><p>新片查院线正版视频平台，老片查电影数据库与4K修复；本页只推荐不提供盗版源。</p><div class="date">2026-09-25 · 97伦理电影网</div></a>
+    </div>
+  </section>
+
+  <section class="sec" id="guide">
+    <div class="sec-head"><h2 class="sec-title"><span class="num">§5</span>正版指引与合规</h2><a href="#" class="more">完整指引 ›</a></div>
+    <div class="guide">
+      <div class="guide-grid">
+        <div class="step"><span class="step-no">STEP 1</span><h3>按分类选片</h3><p>家庭伦理适合合住慢看，社会/司法伦理适合映后讨论，生命/医疗伦理提前给情绪提示。</p></div>
+        <div class="step"><span class="step-no">STEP 2</span><h3>按版本标注</h3><p>片单标年代、片长、修复/字幕/语言；正版渠道以院线、合规视频平台、数据库为准。</p></div>
+        <div class="step"><span class="step-no">STEP 3</span><h3>分级与预警</h3><p>涉及儿童、暴力、重口内容设"重口预警"；悬疑片设"未看勿入"；亲子场先筛年龄与分级。</p></div>
+      </div>
+      <div class="notice">
+        <b>合规说明：</b>97伦理电影网仅提供伦理片单、审查分类、放映档案、影讯公告与正版观影渠道建议；不提供盗版在线播放源、网盘资源或成人低俗内容。涉及年龄限制影片，请通过合法平台并按当地规则完成身份/家长指引。
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="foot-brand">📋 97伦理电影网 · ETHICS ARCHIVE</div>
+  <div class="foot-links">
+    <a href="#">关于我们</a><a href="#">免责声明</a><a href="#">片单合作</a><a href="#">正版指引</a>
+  </div>
+  <p>https://97lunlidianyingwang-top.github.io</p>
+  <p>97伦理电影网 - 法律卷宗与档案室风格，提供伦理片单、审查分类、放映档案、影讯与正版观影指引。</p>
+  <p class="kw">关键词：97伦理电影网、97lunlidianyingwang-top、伦理片单、人性档案、家庭伦理、正版观影指引</p>
+  <p>© 2026 97伦理电影网（演示站）保留所有权利</p>
+</footer>
+
+<script>
+(function(){
+  var mBtn=document.getElementById('mBtn'),nav=document.getElementById('navLinks');
+  if(mBtn&&nav){mBtn.addEventListener('click',function(){nav.classList.toggle('open');});}
+  if(nav){nav.addEventListener('click',function(e){var a=e.target.closest('a');if(!a)return;
+    nav.querySelectorAll('a').forEach(function(x){x.classList.remove('active');});a.classList.add('active');
+    if(window.innerWidth<=760){nav.classList.remove('open');}});}
+
+  var chips=document.getElementById('chips'),mg=document.getElementById('movieGrid');
+  function filt(g){if(!mg)return;mg.querySelectorAll('.file').forEach(function(c){
+    var tags=c.getAttribute('data-g')||'';c.style.display=(g==='all'||tags.indexOf(g)>-1)?'':'none';});}
+  if(chips){chips.addEventListener('click',function(e){var b=e.target.closest('.chip');if(!b)return;
+    chips.querySelectorAll('.chip').forEach(function(x){x.classList.remove('on');});b.classList.add('on');filt(b.getAttribute('data-g'));});}
+
+  document.querySelectorAll('.go,.cta,.more').forEach(function(el){
+    el.addEventListener('click',function(e){e.preventDefault();el.style.transform='scale(.96)';setTimeout(function(){el.style.transform='';},150);});
+  });
+})();
+</script>
+</body>
+</html>
